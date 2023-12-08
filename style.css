@@ -6,28 +6,50 @@ body {
     background: #dddbdb;
 }
 
+/*css for index*/
+
+.index-container {
+    width: 1000px;
+    padding: 100px;
+    background: #cecece;
+    line-height: 30px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.index-container > h3 {
+    font-size: 80px;
+    height: 80px;
+}
+
+.index-container > h3 > a:hover {
+    font-size: 90px;
+}
+
+/*end*/
+
 .container {
     width: 1000px;
     background: #cecece;
-    padding: 100px;
+    padding: 150px;
     line-height: 30px;
     justify-content: center;
-    /* width: 50%; */
     margin: auto;
     
 }
 
 .heading {
     background: #f8da5b;
-    border-style: double;
+    border-bottom: solid;
     border-radius: 10px;
-
 
 }
 
 h1 {
     font-size: 80px;
     text-align: center;
+    text-transform: uppercase ;
 
 }
 
@@ -43,6 +65,8 @@ img {
     margin: 20px;
     border-radius: 10px 50px;
     border-color: #000000;
+    border: solid 10px rgb(0, 0, 0);
+    margin-bottom: 100px;
 }
 
 .text {
@@ -50,5 +74,24 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
 
+a {
+    color: #000000;
+    text-decoration: none;
+    text-shadow: #000000;
+    outline: #fafafa;
+}
+
+a:hover {
+    font-size: 52px;
+    cursor: pointer;
+}
+
+a:active {
+    color: #cecece;
+}
+
+a:visited {
+    color: #1d1d1d;
 }
