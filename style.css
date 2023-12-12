@@ -40,10 +40,12 @@ body {
 }
 
 .heading {
+    display: block;
     background: #f8da5b;
     border-bottom: solid;
     border-radius: 10px;
-    width: 100vw;
+    margin: 0;
+    width: 100%;
 
 }
 
